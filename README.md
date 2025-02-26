@@ -1,2 +1,1 @@
-# PowerShell_init
-PowerShell Windows init scrypt
+# PowerShell-скрипт для первоначальной настройки MS Windows после установки
