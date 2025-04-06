@@ -35,6 +35,7 @@ if ($?) { winget install --id OliverSchwendener.ueli -e --source winget }; # Uel
 if ($?) { winget install --id 9NLXL1B6J7LW -e --source msstore --scope user }; # Install SafeInCloud
 if ($?) { winget install --id IrfanSkiljan.IrfanView -e --source winget --scope user };
 if ($?) { winget install --id LiteratureandLatte.Scrivener -e --source winget --scope user };
+if ($?) { winget install --id calibre.calibre.portabl -e --source winget --scope user };
 
 # if ($?) { winget install --id 9NKSQGP7F2NH -e --source msstore --scope user }; # Install WhatsApp
 # if ($?) { winget install --id Mozilla.Thunderbird -e --source winget };
