@@ -42,6 +42,7 @@ if ($?) { winget install --id IrfanSkiljan.IrfanView -e --source winget --scope 
 if ($?) { winget install --id LiteratureandLatte.Scrivener -e --source winget --scope user };
 if ($?) { winget install --id calibre.calibre.portabl -e --source winget --scope user };
 
+# if ($?) { winget install --id SoftDeluxe.FreeDownloadManager -e --source winget --scope user }; # Install Free Download Manager
 # if ($?) { winget install --id 9NKSQGP7F2NH -e --source msstore --scope user }; # Install WhatsApp
 # if ($?) { winget install --id Mozilla.Thunderbird -e --source winget };
 # if ($?) { winget install --id Obsidian.Obsidian -e --source winget --scope user };
