@@ -30,7 +30,6 @@ if ($?) { winget install --id Python.Python.3.13 -e --Source --source winget };
 if ($?) { winget install --id Docker.DockerDesktop -e --source winget };
 if ($?) { winget install --id Adobe.Acrobat.Reader.64-bit -e --source winget };
 if ($?) { winget install --id qBittorrent.qBittorrent -e --source winget };
-if ($?) { winget install --id Google.Chrome -e --source winget };
 if ($?) { winget install --id 7zip.7zip -e --source winget };
 if ($?) { winget install --id DEVCOM.JetBrainsMonoNerdFont -e --source winget };
 if ($?) { winget install --id Telegram.TelegramDesktop -e --source winget --scope user };
@@ -41,6 +40,11 @@ if ($?) { winget install --id 9NLXL1B6J7LW -e --source msstore --scope user }; #
 if ($?) { winget install --id IrfanSkiljan.IrfanView -e --source winget --scope user };
 if ($?) { winget install --id LiteratureandLatte.Scrivener -e --source winget --scope user };
 if ($?) { winget install --id calibre.calibre.portabl -e --source winget --scope user };
+
+if ($?) { winget install --id Google.Chrome -e --source winget };
+
+# if ($?) { winget install --id=Microsoft.VisioViewer -e --source winget}; # Install Visio
+# if ($?) { winget install --id=Project64.Project64 -e --source winget}; # Install Visio
 
 # if ($?) { winget install --id SoftDeluxe.FreeDownloadManager -e --source winget --scope user }; # Install Free Download Manager
 # if ($?) { winget install --id 9NKSQGP7F2NH -e --source msstore --scope user }; # Install WhatsApp
