@@ -34,6 +34,7 @@ if ($?) { winget install --id 7zip.7zip -e --source winget };
 if ($?) { winget install --id DEVCOM.JetBrainsMonoNerdFont -e --source winget };
 if ($?) { winget install --id Telegram.TelegramDesktop -e --source winget --scope user };
 if ($?) { winget install --id FarManager.FarManager -e --source winget };
+if ($?) { winget install --id Insecure.Nmap -e --source winget };
 
 if ($?) { winget install --id OliverSchwendener.ueli -e --source winget }; # Ueli is a cross-platform keystroke launcher
 if ($?) { winget install --id 9NLXL1B6J7LW -e --source msstore --scope user }; # Install SafeInCloud
