@@ -26,8 +26,8 @@ Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Hyper-V -All
 #>
 winget install --id Git.Git -e --source winget;   # GitHub Desktop
 if ($?) { winget install --id Microsoft.VisualStudioCode -e --source winget --scope user };
-if ($?) { winget install --id Python.Python.3.13 -e --Source --source winget };
-if ($?) { winget install --id DBeaver.DBeaver.Community -e --Source winget };
+if ($?) { winget install --id Python.Python.3.13 -e --source winget };
+if ($?) { winget install --id DBeaver.DBeaver.Community -e --source winget };
 if ($?) { winget install --id Docker.DockerDesktop -e --source winget };
 if ($?) { winget install --id Adobe.Acrobat.Reader.64-bit -e --source winget };
 if ($?) { winget install --id qBittorrent.qBittorrent -e --source winget };
