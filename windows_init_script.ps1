@@ -182,7 +182,8 @@ $appGroups = @{
         @{Id = "Python.Python.3.13"; Name = "Python 3.13"},
         @{Id = "Python.Python.3.14"; Name = "Python 3.13"},
         @{Id = "DBeaver.DBeaver.Community"; Name = "DBeaver Community"},
-        @{Id = "Docker.DockerDesktop"; Name = "Docker Desktop"}
+        @{Id = "Docker.DockerDesktop"; Name = "Docker Desktop"},
+        @{Id = "PuTTY.PuTTY"; Name = "Putty"}
     )
     
     "Системные утилиты" = @(
