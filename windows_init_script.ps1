@@ -1,3 +1,4 @@
+
 # ===========================================
 # Скрипт настройки Windows и установки ПО
 # Версия: 2.0, by Chirva S.
@@ -183,7 +184,9 @@ $appGroups = @{
         @{Id = "Python.Python.3.14"; Name = "Python 3.13"},
         @{Id = "DBeaver.DBeaver.Community"; Name = "DBeaver Community"},
         @{Id = "Docker.DockerDesktop"; Name = "Docker Desktop"},
-        @{Id = "PuTTY.PuTTY"; Name = "Putty"}
+        @{Id = "PuTTY.PuTTY"; Name = "Putty"},
+        @{Id = "Microsoft.WindowsTerminal"; Name = "Windows Terminal"}
+        @{Id = "JohnMacFarlane.Pandoc"; Name = "Pandoc"}
     )
     
     "Системные утилиты" = @(
